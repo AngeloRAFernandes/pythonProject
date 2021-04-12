@@ -1,0 +1,36 @@
+#Comandos Python
+
+[variavel]=[dado pré fixado]      # Armazena dados implantados fixados
+[variavel]=input("texto: ")       # Armazena dados variaveis
+[variavel]=input("texto: ").upper # Upper = Converte o conteudo para letras maiusculas
+[variavel]=int(input("texto: "))  # Armazena dados variaveis numericos inteiros
+[variavel]=float(input("texto: "))# Armazena dados variaveis numericos com virgula
+[variavel]=str(input("texto: "))  # Armazena dados variaveis alfanumericos
+
+print()                     # Imprimir na tela
+print("" + str([variavel])) # Para converter o conteudo da variavel "float" em "string"
+print("", type([variavel])) # Retorna o tipo de dado que está dentro da variavel
+
+
+if [condição]:  	# Se (se atender a condição então)
+    [função a ser executada]
+elif [condição]:	# Se (Continuação do IF / Substitui ELSE IF numa lista muito grande)
+    [função a ser executada]
+else [condição]:	# Senão
+    [função a ser executada]
+
+#Operadores para condição:
+=      Atribuição
+==     Comparação
+>       Maior
+>=      Maior ou igual
+<       Menor
+<=      Menor ou igual
+AND     As duas condições tem que ser verdadeiras para executar a função
+OR      Só uma condição precisa ser verdadeira para atender a condição
+
+
+WHILE   #
+FOR     #
+
+[variavel].APPEND #
